@@ -1,0 +1,274 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #3400ff;
+    position: relative;
+    border: 1px solid white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items ul{
+    display: flex;
+    margin-left: 650px;
+    justify-content: space-around;
+}
+
+.list-items ul li{
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+}
+
+.button button{
+    padding: 4px 10px;
+    color:#3400ff;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 14px;
+    margin-right: 4px;
+}
+
+.button{
+    margin-right: 30px;
+}
+
+.fas.fa-search{
+    color:white
+}
+
+.text{
+    width: 30%;
+    color: white;
+    margin: 100px 0;
+    margin-left: 30px;
+}
+
+
+.main-img{
+    position: absolute;
+    right: -85px;
+    top: 30px;
+}
+
+.main-img img{
+    transform: scale(0.7);
+}
+
+
+.logo_img {
+    position: relative;
+    top:10px;
+    left: 10px;
+}
+
+.MIDDLE {
+    background-color: #f5f5f5;
+}
+
+.company{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.company p{
+    display: inline;
+    margin-left: 30px;
+    font-weight: bold;
+    transform: scale(0.8);
+}
+
+.middle_heading {
+    margin-top: 80px;
+    margin-left: 30px;
+    border: 1px solid black2;
+}
+
+
+.boxes{
+    display: flex;
+}
+.boxes div{
+    transform: scale(0.8);
+    padding-top: 30px ;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.boxes div:hover{
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: -2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
+.boxes .next p{
+    background-color: #3400ff;
+    color: white;
+    padding: 5px 10px;
+    font-size: 28px;
+    font-weight: 100;
+    border-radius: 50%;
+    margin-right: 20px;
+    transform: scale(0.8);
+    position: relative;
+    top: 50px;
+} 
+.articles{
+    display: flex;
+}
+.articles .article{
+    display: flex;
+    transform: scale(0.8);
+
+}
+
+.content{
+    padding-left: 20px;
+    background-color: white;
+    
+}
+
+.content p:first-child{
+    color:#3400ff;
+    font-weight: bold;
+}
+
+.content img{
+    position: relative;
+    top:20px;
+    left: 15px;
+}
+
+.content p:last-child{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.bottom_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_heading h1{
+    margin-left: 30px;
+}
+
+.bottom_heading p{
+    margin-right: 30px;
+    color: #3400ff;
+
+}
+
+.bottom_2{ 
+    background-color: #e9edff;
+    overflow: hidden;
+    height: 240px;
+   
+  
+}
+
+
+.bottom_2 .img{
+    transform: scale(0.6);
+    float: right;
+    position: relative;
+    bottom: 30px;
+   
+}
+
+.bottom_2 div:first-child{
+ 
+    float:left;
+    width: 30%;
+    transform: scale(0.8);
+}
+
+.bottom_2 div button{
+    padding: 10px 25px;
+    background-color: #3400ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+
+
+}
+
+.Bottom_3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.left_b3{
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.left_b3 p{
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.right_b3 input{
+    width: 300px;
+    padding: 10px 0px ;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #e9edff;
+    border: none;
+    color: black;
+}
+
+.right_b3 button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #5a31fc;
+    color: white;
+    border: none;
+    position: relative;
+    right: 25px;
+}
+
+footer {
+    padding: 20px 0;
+    display: flex;
+    background-color:#3400ff;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav div:last-child{
+    display: flex;
+    transform: scale(0.8);
+    position: relative;
+    right: 50px;
+
+}
+
+.nav div ul{
+    display: flex;
+    list-style: none;
+    gap:20px
+}
+
+.social_img img{
+    margin-right: 9px;
+}
+
+.nav{
+    transform: scale(0.8);
+}
